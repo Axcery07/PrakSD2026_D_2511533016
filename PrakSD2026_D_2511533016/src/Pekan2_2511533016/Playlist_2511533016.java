@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class Playlist_2511533016 {
 	// Tampilan Menu Playlist
 	public static void tampilkanMenu_2511533016() {
-		System.out.println("=== Playlist Musik NIM: 2511533016 === ");
-		System.out.println("Menu:");
+		System.out.println("\n=== Playlist Musik NIM: 2511533016 === ");
+		System.out.println("\nMenu:");
 		System.out.println("1. Tambahkan Lagu");
 		System.out.println("2. Lihat Playlist");
 		System.out.println("3. Hapus Lagu");
@@ -31,7 +31,8 @@ public class Playlist_2511533016 {
 		} else {
 			System.out.println("Playlist : ");
 			for (Musik_2511533016 isiPlaylist : array_3016) {
-				System.out.println("Nama Lagu : " + isiPlaylist.judulLagu_3016 + "\nNama Penyanyi : " + isiPlaylist.penyanyi_3016 + "\nDurasi (detik) :" + isiPlaylist.durasi_3016);
+				System.out.println("Nama Lagu : " + isiPlaylist.judulLagu_3016 + "\nNama Penyanyi : " + isiPlaylist.penyanyi_3016 
+									+ "\nDurasi (detik) :" + isiPlaylist.durasi_3016);
 			}
 		}
 	}
@@ -76,5 +77,5 @@ public class Playlist_2511533016 {
 		} while (choice_3016 != 4);
 		scanner_3016.close();
 		}
-	}
+	} 
 	 
