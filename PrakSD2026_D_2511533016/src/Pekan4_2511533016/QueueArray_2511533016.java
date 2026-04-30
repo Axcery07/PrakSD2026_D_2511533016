@@ -57,7 +57,7 @@ public class QueueArray_2511533016 {
 			return;
 		}
 	
-	
+
 	//kunjungi dari belakang dan cetak
 	for (i = front_3016; i < rear_3016; i++) {
 		System.out.printf(" %d <== ", array_3016[i]);
