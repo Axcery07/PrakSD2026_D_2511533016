@@ -1,6 +1,6 @@
 package Pekan7_2511533016;
 
-public class SeletionSprt_2511533016 {
+public class SeletionSort_2511533016 {
 	public static void selectionSort_2511533016(int[] arr) {
 		int n_3016 = arr.length;
 		for (int i_3016 = 0; i_3016 < n_3016; i_3016++) {
