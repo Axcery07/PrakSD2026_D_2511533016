@@ -26,7 +26,7 @@ public class Node_2511533016 {
 	public int getData_2511533016() {
 		return data_3016;
 	}
-	public void setData_2511533016() {
+	public void setData_2511533016(int data_3016) {
 		this.data_3016 = data_3016;
 	}
 	
